@@ -1,0 +1,75 @@
+//Print numbers from 1 to n
+
+function printNumbers(num){
+    for(let i = 1 ;i<= num ;i++) console.log(i); 
+    return;
+}
+//printNumbers(10);
+
+// Print numbers from N to 1
+function printNumbersReverse(num){
+    for(let i = num ;i>= 1 ;i--) console.log(i); 
+    return;
+}
+//printNumbersReverse(10);
+
+// // Print even numbers from 1 to N
+function printEvenNumbers(num){
+    for(let i = 2 ;i<= num ;i+=2) console.log(i); 
+    return;
+}
+// printEvenNumbers(10);
+
+// // Print odd numbers from 1 to N
+function printOddNumbers(num){
+    for(let i = 1 ;i<= num ;i+=2) console.log(i); 
+    return;
+}
+//printOddNumbers(10);
+
+function Sumfrom1tN(num){
+    return (num*(num+1)) / 2;
+}
+
+//console.log(Sumfrom1tN(10));
+
+function factorial(num){
+    if(num === 0 || num === 1) return 1;
+    let ans = 1;
+    for(let i = num ; i>=2 ; i-- ) ans *= i;
+    return ans;
+}
+// console.log(factorial(5));
+
+//Count how many numbers are divisible by 3 from 1 to N.
+function func(num){
+    // if(num<3) return 0;
+    // let count = 0;
+    // for(let i = 3 ; i<= num ; i+=3){
+    //     count+=1;
+    // }
+    // return count;
+    return Math.floor(num/3);
+}
+
+//console.log(func(10));
+
+// pattern printing 
+// *****
+// *****
+// *****
+// *****
+// *****
+
+function Pattern(i,j){
+    for(let rows = 1 ;rows<=i ;rows++){
+        let str = "";
+        for(let cols = 1 ;cols<=j ;cols++){
+        str += "*";
+    }
+    console.log(str);
+    }
+    return;
+}
+
+Pattern(5,5);
