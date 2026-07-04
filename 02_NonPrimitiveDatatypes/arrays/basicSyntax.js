@@ -90,23 +90,28 @@ let programmingLanguages = ["C++", "Java", "Python"];
 
 // Goal: Insert "JavaScript" at index 1
 // Arguments: start at index 1, delete 0 items, insert "JavaScript"
-programmingLanguages.splice(1, 0, "JavaScript");
+// programmingLanguages.splice(1, 0, "JavaScript");
 
-console.log(programmingLanguages); 
-// Output: ["C++", "JavaScript", "Java", "Python"] 
+// console.log(programmingLanguages); 
+// // Output: ["C++", "JavaScript", "Java", "Python"] 
 
-// delete using splice
-let fruits = ["Apple", "Banana", "Mango"];
+// // delete using splice
+// let fruits = ["Apple", "Banana", "Mango"];
 
-// Goal: Replace "Banana" (at index 1) with "Orange"
-// Arguments: start at index 1, delete 1 item, insert "Orange"
-fruits.splice(1, 1, "Orange");
+// // Goal: Replace "Banana" (at index 1) with "Orange"
+// // Arguments: start at index 1, delete 1 item, insert "Orange"
+// fruits.splice(1, 1, "Orange");
 
-console.log(fruits); 
-// Output: ["Apple", "Orange", "Mango"]
+// console.log(fruits); 
+// // Output: ["Apple", "Orange", "Mango"]
 
 
 // whatever we can do with the help of splice ; can also be done 
 // with the help of slice (some exceptions like insertion) . 
 // but main difference is slice returns 
 // a copy after changes while slice do changes in the original array 
+
+let  arr = [1, 101, 75, 50, 31, 25, -1, 0, -34];
+arr.sort((a,b)=> a-b);
+console.log(arr);
+// (a,b)=> a-b : arrow funciton

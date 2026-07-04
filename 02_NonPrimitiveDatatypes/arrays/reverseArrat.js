@@ -18,5 +18,3 @@ for(let value of arr){
     str += value + " ";
 }
 console.log(str.trim());
-
-
