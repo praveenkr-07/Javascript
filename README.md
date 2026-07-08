@@ -50,17 +50,6 @@ Contributions are welcome. If you'd like to add an example or improve existing c
 
 Please add or update the README inside the example folder you modify to include usage instructions and any dependencies.
 
-License
-
-No license file is included in this repository yet. If you want this project to be open source, consider adding a LICENSE file (for example, the MIT License).
-
-Contact
-
+Contact 
 Maintainer: praveenkr-07
-
-Notes
-- If you'd like, I can:
-  - Add a license file (MIT by default)
-  - Create a CONTRIBUTING.md with PR and coding guidelines
-  - Auto-generate a contents index by scanning directories
 
